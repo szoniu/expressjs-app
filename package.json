@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "DevOps - przykladowa aplikacja",
   "main": "app.js",
-  "scripts": {},
+  "scripts": {
+    "deploy": "forever stopall && gulp buildjs && forever start forever.json"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
