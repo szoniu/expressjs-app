@@ -1,0 +1,7 @@
+{
+  "uuid": "expressjsapp",
+  "append": "true",
+  "watch": "false",
+  "script": "app.js",
+  "sourceDir": "/var/www/app/dist"
+}
