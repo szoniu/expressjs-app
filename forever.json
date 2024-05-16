@@ -3,7 +3,7 @@
   "append": true,
   "watch": true,
   "script": "app.js",
-  "sourceDir": "/var/www/app",
+  "sourceDir": "/var/www/app/dist",
   "logFile": "/home/webapp/.forever/expressjsapp.log",
   "errFile": "/home/webapp/.forever/expressjsapp.error.log",
   "outFile": "/home/webapp/.forever/expressjsapp.out.log",
