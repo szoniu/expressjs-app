@@ -3,11 +3,14 @@
   "version": "1.0.0",
   "description": "DevOps - przykladowa aplikacja",
   "main": "app.js",
-  "scripts": {
-  },
+  "scripts": {},
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.15.3"
+  },
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "gulp-uglify": "^3.0.2"
   }
 }
