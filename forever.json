@@ -1,7 +1,11 @@
 {
   "uid": "expressjsapp",
-  "append": "true",
-  "watch": "false",
+  "append": true,
+  "watch": true,
   "script": "app.js",
-  "sourceDir": "/var/www/app/dist"
+  "sourceDir": "/var/www/app",
+  "logFile": "/home/webapp/.forever/expressjsapp.log",
+  "errFile": "/home/webapp/.forever/expressjsapp.error.log",
+  "outFile": "/home/webapp/.forever/expressjsapp.out.log",
+  "args": ["--trace-warnings"]
 }
